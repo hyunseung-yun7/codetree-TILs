@@ -1,5 +1,5 @@
-let output = ""
+const arr = [];
 for (let i = 5; i < 18; i++) {
-    output += i + (i < 17 ? " " : "");
+  arr.push(i);
 }
-console.log(output);
+console.log(arr.join(" "));
